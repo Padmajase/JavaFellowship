@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Readsingledigit{
 	public static void main(String args[])
 	{
-		System.out.println("Enter single ditit number");
+		System.out.println("Enter single digit number");
 		Scanner scan=new Scanner(System.in);
 		int n=scan.nextInt();
 		if(n == 1)
