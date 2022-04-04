@@ -3,13 +3,15 @@ import java.util.Scanner;
 class Sumofnnumbers{
 	public static void main(String args[])
 	{
-		int i,sum=0;
+		int i=1;
+		int sum=0;
 		Scanner scan=new Scanner(System.in);
 		System.out.println("enter number to get summation ");
 		int n=scan.nextInt();
-		for(i=1;i<=n;i++)
+		while(i != n+1)
 		{
-			sum+=i;
+			sum=sum+i;
+			i++;
 		}
 		System.out.println(" Sum of "+n+" numbers is "+sum);
 	}
